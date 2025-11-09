@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "lecture_1"
 requires-python = ">=3.12"
 authors = [
-    { name = "bluecjioh" },
+    { name = "whoisaqoke" },
 ]
 license = { text = "Proprietary" }
 keywords = ["education", "colorama", "terminal", "innowise"]
@@ -13,8 +13,8 @@ dependencies = [
 ]
 
 [project.urls]
-homepage = "https://github.com/bluecjioh/innowise_laboratory"
-repository = "https://github.com/bluecjioh/innowise_laboratory"
+homepage = "https://github.com/whoisaqoke/innowise_laboratory"
+repository = "https://github.com/whoisaqoke/innowise_laboratory"
 
 [build-system]
 requires = ["setuptools>=67", "wheel"]
