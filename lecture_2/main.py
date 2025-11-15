@@ -11,14 +11,27 @@ def generate_profile(age):
         return a
     else:
         err = "your age must be >=0"
+while True:
+    user_name = input("Enter your name: ")
+    if user_name.strip() and not user_name.isdigit():
+        break
+    else:
+        print("Name must be non-empty and not numeric\n")
 
 
-
-print ("enter your name")
-user_name = input()
-
-print ("enter your birth year")
-birth_year_str = int(input())
+while True:
+    print ("enter your birth year")
+    
+    try:
+        birth_year_str = int(input())
+        if 1900 <= birth_year_str <= 2025:
+            break
+        else:
+            print("Year must be between 1900 and 2025\n")
+        break
+        
+    except ValueError:
+        print ("year must be int\n")    
 
 current_age = 2025 - birth_year_str
 
